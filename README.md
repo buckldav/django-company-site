@@ -15,7 +15,7 @@ python3 -m venv env
 # Activate your virtual environment. All python packages will stored in env.
 source env/bin/activate
 # Install the requisite python packages (and their dependencies) in your virtual environment.
-pip install Django python-dotenv
+pip install Django Pillow python-dotenv
 # Record what you installed with pip in a requirements.txt file.
 pip freeze > requirements.txt
 # Create a django project folder
